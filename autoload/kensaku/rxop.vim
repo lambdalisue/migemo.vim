@@ -6,7 +6,7 @@ let g:kensaku#rxop#vim = #{
       \ startClass: '[',
       \ endClass: ']',
       \ newline: '',
-      \ escape: '\\.[]*^$',
+      \ escape: '\\.[]*~^$',
       \}
 let g:kensaku#rxop#javascript = #{
       \ or: '|',
